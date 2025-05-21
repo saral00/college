@@ -31,13 +31,13 @@ from twilio.rest import Client
 
 
 # Load Prompt Templates and Instructions
-with open('text/system_role.txt', 'r') as f:
+with open('system_role.txt', 'r') as f:
     system_role = f.read()
 
-with open('text/human_template.txt', 'r') as f:
+with open('human_template.txt', 'r') as f:
     human_template = f.read()
 
-with open('text/instructions.txt', 'r') as f:
+with open('instructions.txt', 'r') as f:
     instructions = f.read()
 
 llm_prompt = ChatPromptTemplate.from_messages([
