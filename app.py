@@ -113,8 +113,8 @@ def display_heart_report():
 
 
 # Build UI
-st.set_page_config('PsychoCouncil')
-st.title('PsychoCouncil')
+st.set_page_config('SelfCouncil')
+st.title('SelfCouncil')
 
 with st.expander('Instructions'):
     st.write(instructions)
